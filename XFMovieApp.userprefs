@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{8644E756-08F1-4381-92DA-9AAE04DEFC93}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XFMovieApp/XFMovieApp.Droid/MainActivity.cs">
+    <Files>
+      <File FileName="XFMovieApp/XFMovieApp/App.cs" Line="1" Column="1" />
+      <File FileName="XFMovieApp/XFMovieApp.Droid/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XFMovieApp.Droid PreferredExecutionTarget="Android.adfh" />
+  <MonoDevelop.Ide.ItemProperties.XFMovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0EA5C593-4152-4661-84F2-12592A56D608" />
+</Properties>
