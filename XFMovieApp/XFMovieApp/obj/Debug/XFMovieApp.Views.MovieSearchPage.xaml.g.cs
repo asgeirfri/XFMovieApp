@@ -17,10 +17,7 @@ namespace XFMovieApp {
     public partial class MovieSearchPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry nameEntry;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button displayMovieButton;
+        private global::Xamarin.Forms.SearchBar nameEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ActivityIndicator spinner;
@@ -31,8 +28,7 @@ namespace XFMovieApp {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MovieSearchPage));
-            nameEntry = this.FindByName <global::Xamarin.Forms.Entry>("nameEntry");
-            displayMovieButton = this.FindByName <global::Xamarin.Forms.Button>("displayMovieButton");
+            nameEntry = this.FindByName <global::Xamarin.Forms.SearchBar>("nameEntry");
             spinner = this.FindByName <global::Xamarin.Forms.ActivityIndicator>("spinner");
             listview = this.FindByName <global::Xamarin.Forms.ListView>("listview");
         }

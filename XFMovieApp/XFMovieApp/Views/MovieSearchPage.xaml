@@ -6,8 +6,7 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label Text="Enter words in a movie title:" HorizontalOptions="Start" Margin="20,20,20,0" />
-			<Entry Placeholder="Movie Title"  HorizontalOptions="Fill" x:Name="nameEntry" Margin="20,0,20,0" />
-			<Button Text="Get Movie" HorizontalOptions="Fill" Clicked="OnDisplayMovieButtonClicked" x:Name="displayMovieButton"/>
+			<SearchBar Placeholder="Movie Title"  HorizontalOptions="Fill" x:Name="nameEntry" Margin="20,0,20,0" />
 			<ActivityIndicator Color="Black" x:Name="spinner" IsRunning="true" IsVisible="false" />
 						
 			<ListView x:Name="listview"

@@ -13,9 +13,7 @@ namespace XFMovieApp
 	{
 		private MovieService _service;
 
-		private Entry _nameEntry;
-
-		private Button _displayMovieButton;
+		private SearchBar _nameEntry;
 
 		private ActivityIndicator _spinner;
 
@@ -26,19 +24,20 @@ namespace XFMovieApp
 			InitializeComponent();
 			this.Title = "Movie Search";
 			_service = new MovieService();
-			_nameEntry = this.FindByName<Entry>("nameEntry");
-			_displayMovieButton = this.FindByName<Button>("displayMovieButton");
+			_nameEntry = this.FindByName<SearchBar>("nameEntry");
 			_spinner = this.FindByName<ActivityIndicator>("spinner");
 			_list = this.FindByName<ListView>("listview");
+			_nameEntry.SearchCommand = new Command(() =>
+			{
+				OnDisplayMovieButtonClicked(null, null);
+			});
 		}
 
 		private async void OnDisplayMovieButtonClicked(object sender, EventArgs args)
 		{
 			_list.IsVisible = false;
 			_spinner.IsVisible = true;
-			this._displayMovieButton.IsEnabled = false;
 			List<MovieDetailsDTO> movies = await _service.SearchMovies(this._nameEntry.Text);
-			this._displayMovieButton.IsEnabled = true;
 			this.BindingContext = movies;
 			_spinner.IsVisible = false;
 			_list.IsVisible = true;
