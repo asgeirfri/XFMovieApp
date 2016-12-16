@@ -17,6 +17,9 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Icon-Small.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Icon-Small@2x.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Icon-Small@3x.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Popular.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/SearchFilled.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Star.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/bin/iPhoneSimulator/Debug/XFMovieApp.iOS.exe.mdb
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/bin/iPhoneSimulator/Debug/XFMovieApp.iOS.exe
@@ -36,6 +39,3 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/bin/iPhoneSimulator/Debug/XFMovieApp.dll.mdb
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/bin/iPhoneSimulator/Debug/DM.MovieApi.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Popular.png
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/SearchFilled.png
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.iOS/obj/iPhoneSimulator/Debug/optimized/Star.png

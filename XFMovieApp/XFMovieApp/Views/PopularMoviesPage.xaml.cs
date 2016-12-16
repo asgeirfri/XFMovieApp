@@ -4,6 +4,8 @@ using MovieApp.Models;
 using XFMovieApp.Services;
 using Xamarin.Forms;
 using DLToolkit.Forms.Controls;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace XFMovieApp
 {
@@ -11,32 +13,32 @@ namespace XFMovieApp
 	{
 		private MovieService _service;
 		List<MovieDetailsDTO> _movies;
-		private FlowListView _flowListView;
+		private FlowListView _list;
+		private ActivityIndicator _spinner;
 
 
 		public PopularMoviesPage()
 		{
 			InitializeComponent();
+			_spinner = this.FindByName<ActivityIndicator>("spinner");
 			_service = new MovieService();
 			_movies = new List<MovieDetailsDTO>();
+			_list = this.FindByName<FlowListView>("flowList");
+			_list.RefreshCommand = new Command(() =>
+			{
+				GetPopularMovies();
+			});
 			GetPopularMovies();
-			_flowListView = new FlowListView();
 		}
 
 		private async void GetPopularMovies()
 		{
-			var _spinner = this.FindByName<ActivityIndicator>("spinner");
-			//var _list = this.FindByName<ListView>("listview");
-			//_list.IsVisible = false;
 			_spinner.IsVisible = true;
-
 			_movies = await _service.PopularMovies();
 
 			this.BindingContext = _movies;
-
-			//this.FindByName<ListView>("listview").ItemsSource = _movies;
 			_spinner.IsVisible = false;
-			//_list.IsVisible = true;
+			_list.EndRefresh();
 		}
 
 				/*private async void Listview_OnItemSelected(object sender, SelectedItemChangedEventArgs e)

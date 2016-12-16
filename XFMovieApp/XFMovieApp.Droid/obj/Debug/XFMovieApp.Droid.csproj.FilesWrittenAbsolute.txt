@@ -7,6 +7,9 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/popular.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/searchfilled.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/star.png
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/layout/tabbar.xml
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/layout/toolbar.xml
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/values/styles.xml
@@ -35,8 +38,5 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/XFMovieApp.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/XFMovieApp.dll.mdb
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/DM.MovieApi.dll
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/DLToolkit.Forms.Controls.FlowListView.dll
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/popular.png
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/searchfilled.png
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/res/drawable/star.png
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/bin/Debug/Newtonsoft.Json.dll

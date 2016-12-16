@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
+			 x:Class="XFMovieApp.MovieSearchPage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Enter words in a movie title:" HorizontalOptions="Start" Margin="20,20,20,0" />
+			<Entry Placeholder="Movie Title"  HorizontalOptions="Fill" x:Name="nameEntry" Margin="20,0,20,0" />
+			<Button Text="Get Movie" HorizontalOptions="Fill" Clicked="OnDisplayMovieButtonClicked" x:Name="displayMovieButton"/>
+			<ActivityIndicator Color="Black" x:Name="spinner" IsRunning="true" IsVisible="false" />
+						
+			<ListView x:Name="listview"
+				ItemsSource="{Binding}"
+				HasUnevenRows="True"
+				ItemSelected="Listview_OnItemSelected"
+				IsVisible="false" >
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<!--<TextCell Text="{Binding info.Title}" />-->
+						<ViewCell>
+				          <Grid Padding="10,5">
+				            <Grid.RowDefinitions>
+				              <RowDefinition Height="Auto"></RowDefinition>
+				              <RowDefinition Height="*"></RowDefinition>
+				            </Grid.RowDefinitions>
+				            <Grid.ColumnDefinitions>
+				              <ColumnDefinition Width="*"></ColumnDefinition>
+				              <ColumnDefinition Width="70"></ColumnDefinition>
+				            </Grid.ColumnDefinitions>
+				            <Label Grid.Row="0" Grid.Column="0"
+			                   Text="{Binding title}"
+			                   FontAttributes="Bold"
+			                   FontSize="Medium"
+			                   TextColor="#1f03e1" />
+							<Label Grid.Row="1" Grid.Column="0"
+		               		   Text="{Binding casts}"
+		               		   FontSize="Small" />
+							<ffimageloading:CachedImage Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+									HeightRequest="100" Aspect="AspectFit"
+									DownsampleHeight="300" DownsampleUseDipUnits="false" 
+									LoadingPlaceholder="" ErrorPlaceholder=""
+									Source="{Binding imageUrl}"/>
+				          </Grid>
+				        </ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

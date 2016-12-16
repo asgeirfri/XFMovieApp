@@ -9,7 +9,8 @@
 		<ActivityIndicator x:Name="spinner" Color="White" IsRunning="true" />
 		<flv:FlowListView x:Name="flowList" FlowColumnCount="3" SeparatorVisibility="Default" HasUnevenRows="true"
     		FlowItemsSource="{Binding}"
-			FlowItemTapped="itemTapped">
+			FlowItemTapped="itemTapped"
+			IsPullToRefreshEnabled="true">
     		<flv:FlowListView.FlowColumnTemplate>
 		        <DataTemplate>
 					<StackLayout>

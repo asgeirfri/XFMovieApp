@@ -41,7 +41,6 @@
     <Compile Include="Services\IPosterDownload.cs" />
     <Compile Include="Services\MyMovieDbSettings.cs" />
     <Compile Include="Models\MovieDetailsDTO.cs" />
-    <Compile Include="Views\MovieSearchPage.cs" />
     <Compile Include="Views\MovieListPage.xaml.cs">
       <DependentUpon>MovieListPage.xaml</DependentUpon>
     </Compile>
@@ -53,6 +52,9 @@
     </Compile>
     <Compile Include="Views\PopularMoviesPage.xaml.cs">
       <DependentUpon>PopularMoviesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MovieSearchPage.xaml.cs">
+      <DependentUpon>MovieSearchPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +108,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\PopularMoviesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MovieSearchPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -3,14 +3,12 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.MovieDetailPage.xaml
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.TopMoviesPage.xaml
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.PopularMoviesPage.xaml
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.MovieSearchPage.xaml
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.MovieListPage.xaml.g.cs
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.MovieDetailPage.xaml.g.cs
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.TopMoviesPage.xaml.g.cs
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.PopularMoviesPage.xaml.g.cs
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/XFMovieApp.dll.mdb
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/XFMovieApp.dll
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.dll
-/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.dll.mdb
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.Views.MovieSearchPage.xaml.g.cs
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/Xamarin.Forms.Core.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/Xamarin.Forms.Xaml.dll
@@ -20,3 +18,7 @@
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/FFImageLoading.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/FFImageLoading.Platform.dll
 /Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/FFImageLoading.Forms.dll
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/XFMovieApp.dll.mdb
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/bin/Debug/XFMovieApp.dll
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.dll
+/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp/obj/Debug/XFMovieApp.dll.mdb
