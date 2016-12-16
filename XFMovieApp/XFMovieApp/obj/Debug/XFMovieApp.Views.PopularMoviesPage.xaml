@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+			 xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+			 x:Class="XFMovieApp.PopularMoviesPage"
+			 Title="Popular Movies" >
+	<StackLayout>
+		<ActivityIndicator x:Name="spinner" Color="White" IsRunning="true" />
+		<flv:FlowListView x:Name="flowList" FlowColumnCount="3" SeparatorVisibility="Default" HasUnevenRows="true"
+    		FlowItemsSource="{Binding}"
+			FlowItemTapped="itemTapped">
+    		<flv:FlowListView.FlowColumnTemplate>
+		        <DataTemplate>
+					<StackLayout>
+		            <ffimageloading:CachedImage
+							HeightRequest="150" Aspect="AspectFit"
+							DownsampleToViewSize="true" DownsampleUseDipUnits="false" 
+							LoadingPlaceholder="" ErrorPlaceholder=""
+							Source="{Binding imageUrl}"/>
+						</StackLayout>
+		        </DataTemplate>
+		    </flv:FlowListView.FlowColumnTemplate>
+		</flv:FlowListView>
+	</StackLayout>
+</ContentPage>

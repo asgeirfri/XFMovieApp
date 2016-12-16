@@ -4,14 +4,20 @@
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/FFImageLoading.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/FFImageLoading.Forms.Droid/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/FFImageLoading.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/FFImageLoading.Forms.Droid/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/FFImageLoading.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Asgeir/Projects/XFMovieApp/XFMovieApp/XFMovieApp.Droid/obj/Debug/__library_projects__/FFImageLoading.Forms.Droid.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

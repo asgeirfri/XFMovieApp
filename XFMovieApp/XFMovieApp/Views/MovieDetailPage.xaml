@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+			 x:Class="XFMovieApp.MovieDetailPage" 
+			 Title="Movie Detail" >
+	<ContentPage.Content>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"></RowDefinition>
+		        <RowDefinition Height="Auto"></RowDefinition>
+				<RowDefinition Height="Auto"></RowDefinition>
+				<RowDefinition Height="Auto"></RowDefinition>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<ffimageloading:CachedImage Grid.Row="0" Grid.Column="0"
+							HeightRequest="100" Aspect="AspectFit"
+							DownsampleHeight="300" DownsampleUseDipUnits="false" 
+							LoadingPlaceholder="" ErrorPlaceholder=""
+							Source="{Binding imageUrl}"/>
+			<Label Grid.Row="1" Grid.Column="0"
+	                   Text="{Binding title}"
+	                   FontAttributes="Bold"
+	                   FontSize="Medium" />
+			<Label Grid.Row="2" Grid.Column="0"
+	                   Text="{Binding genreString}"
+	                   FontSize="Small" />
+			<Label Grid.Row="3" Grid.Column="0"
+	                   Text="{Binding info.Overview}"
+	                   FontSize="Small" />
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
